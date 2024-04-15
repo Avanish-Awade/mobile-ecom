@@ -1,0 +1,71 @@
+.product{
+  padding: 5vh 5vw;
+}
+
+.intro{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5vh;
+  position: relative;
+}
+
+.image{
+  width: 30vw;
+  height: 30vw;
+  object-fit: contain;
+}
+
+.text{
+  width: 55vw;
+}
+
+.name{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.brand{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.description{
+  text-align: justify;
+  margin-top: 5vh;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.add-to-cart{
+  margin-top: 5vh;
+  box-sizing: border-box;
+  width: 20vw;
+  background-color: black;
+  color: white;
+  padding: 2vh 2vw;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.feature-list{
+  width: 100%;
+  margin-top: 2.5vh;
+}
+
+.features-heading{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.feature{
+  font-family: "Calibri";
+  font-size: 1.3em;
+  line-height: 1.5;
+  font-weight: 500;
+}

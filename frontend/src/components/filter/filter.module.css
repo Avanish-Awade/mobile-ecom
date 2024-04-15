@@ -1,0 +1,48 @@
+.filter{
+  box-sizing: border-box;
+  width: 15vw;
+  padding: 5vh 2vw;
+  position: fixed;
+}
+
+.heading{
+  font-weight: 800;
+  margin-bottom: 2vh;
+  font-size: 1.5em;
+}
+
+.brands{
+  display: flex;
+  flex-direction: column;
+}
+
+.company{
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price{
+  width: 12vw;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0.5vh 1vw;
+  padding-right: 0;
+}
+
+.search{
+  width: 12vw;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0.5vh 1vw;
+}
+
+.button{
+  width: fit-content;
+  margin-top: 2vh;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1vh 1vw;
+  border-radius: 5px;
+}

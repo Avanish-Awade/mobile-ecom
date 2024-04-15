@@ -1,0 +1,60 @@
+.cart-item{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  gap: 2vw;
+  border: 1px solid rgb(221, 221, 221);
+  height: fit-content;
+  padding: 2vh;
+  border-radius: 5px;
+}
+
+.image{
+  width: 10vw;
+  height: 10vw;
+  object-fit: contain;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 0.7vh;
+}
+
+.name{
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.brand{
+  font-size: 1em;
+  font-style: italic;
+}
+
+.cost{
+  font-size: 1.3em;
+}
+
+.counter{
+  border: 1px solid;
+  width: fit-content;
+  font-size: 1.2em;
+  display: flex;
+  gap: 1vw;
+}
+
+.inc{
+  width: 2vw;
+  border: none;
+  border-left: 1px solid;
+  background-color: black;
+  color: white;
+}
+
+.dec{
+  width: 2vw;
+  border: none;
+  border-right: 1px solid;
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,35 @@
+.order-card{
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid rgb(161, 161, 161);  
+  border-radius: 5px;
+  padding: 2vh 2vw;
+  box-sizing: border-box;
+}
+
+.product{
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  padding: 1vh 1vw;
+  justify-content: space-between;
+}
+
+.image{
+  object-fit: contain;
+  height: 5vw;
+  width: 5vw;
+}
+
+.name{
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.total{
+  box-sizing: border-box;
+  width: 100%;
+  text-align: right;
+  padding: 0 1vw;
+}

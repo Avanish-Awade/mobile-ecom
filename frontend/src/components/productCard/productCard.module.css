@@ -1,0 +1,30 @@
+.product-card{
+  height: 32vw;
+  width: 25vw;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+}
+
+.image{
+  justify-content: center;
+  height: 25vw;
+  width: 25vw;
+  object-fit:contain;
+}
+
+.name{
+  padding: 0 2vw;
+  color: black;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.price{
+  padding: 0 2vw;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 500;
+}

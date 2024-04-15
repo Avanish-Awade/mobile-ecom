@@ -1,0 +1,31 @@
+.navbar{
+  box-sizing: border-box;
+  display: flex;
+  height: 8vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1vh 5vw;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-options{
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+.user{
+  font-size: 1em;
+  width: 8vw;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 1vh 1vw;
+}

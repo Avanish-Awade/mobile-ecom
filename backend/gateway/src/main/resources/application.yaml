@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:3000"
+            allowedHeaders: "*"
+            allowedMethods:
+            - GET
+            - POST
+            - DELETE
+            - PATCH
+      routes:
+        - id: user
+          uri: lb://USER
+          predicates:
+            - Path=/user/**
+        - id: product
+          uri: lb://PRODUCT
+          predicates:
+            - Path=/product/**
+        - id: order
+          uri: lb://ORDER
+          predicates:
+            - Path=/order/**
+
+server:
+  port: 5000
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

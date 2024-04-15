@@ -1,0 +1,12 @@
+.home{
+  display: flex;
+  height: 200vh;
+}
+
+.products{
+  padding: 5vh 0;
+  margin-left: 17.5vw;
+  display: flex;
+  gap: 2vw;
+  flex-wrap: wrap;
+}

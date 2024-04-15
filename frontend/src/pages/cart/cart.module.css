@@ -1,0 +1,26 @@
+.cart{
+  display: flex;
+  padding: 5vh 5vw;
+  justify-content: space-between;
+}
+
+.products{
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  gap: 3vh;
+}
+
+.cost{
+  width: 20vw;
+}
+
+.clear{
+  font-weight: 700;
+  font-size: 1.2em;
+  width: fit-content;
+  padding: 1vh 1vw;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
